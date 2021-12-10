@@ -6,4 +6,8 @@
     <string name="request_number_1">"10"</string>
     <string name="approved_request">"Approved Requests"</string>
     <string name="request_number_2">"6"</string>
+    <string name="rejected_request">"Rejected Requests"</string>
+    <string name="rejected_request_2">"Rejected Requests"</string>
+    <string name="request_number_3">"1"</string>
+    <string name="request_number_4">"3"</string>
 </resources>
