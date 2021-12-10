@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/DashBoard/app/src/main/res/layout/activity_main.xml" value="0.18958333333333333" />
+        <entry key="..\:/DashBoard/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/DashBoard/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
