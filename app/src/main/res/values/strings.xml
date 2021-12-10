@@ -10,4 +10,5 @@
     <string name="rejected_request_2">"Rejected Requests"</string>
     <string name="request_number_3">"1"</string>
     <string name="request_number_4">"3"</string>
+    <string name="request_hint">"Recent Requests"</string>
 </resources>

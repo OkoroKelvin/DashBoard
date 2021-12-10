@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/DashBoard/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.20572916666666666" />
         <entry key="..\:/DashBoard/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/DashBoard/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.20572916666666666" />
+        <entry key="..\:/DashBoard/app/src/main/res/drawable/ic_recent_requests.xml" value="0.10104166666666667" />
+        <entry key="..\:/DashBoard/app/src/main/res/layout-v21/activity_main.xml" value="0.12864583333333332" />
         <entry key="..\:/DashBoard/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
