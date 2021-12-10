@@ -11,4 +11,10 @@
     <string name="request_number_3">"1"</string>
     <string name="request_number_4">"3"</string>
     <string name="request_hint">"Recent Requests"</string>
+    <string name="approved_date">"13/07/2019 16:37:53"</string>
+    <string name="approved_message">"APPROVED"</string>
+    <string name="rejected_message">"REJECTED"</string>
+    <string name="approved_action">"I want to go and activate \nmy ATM card at the bank"</string>
+    <string name="rejected_action">"I want to go collect some \nforms from a friend"</string>
+    <string name="card_time">Dep Time: 10:30 am \nArrival Time: 1:30 pm</string>
 </resources>

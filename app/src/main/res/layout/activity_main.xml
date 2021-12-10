@@ -254,4 +254,156 @@
         android:padding="5dip"
         android:textSize="15sp"
         android:hint="@string/request_hint" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="370dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="7dp"
+        app:cardBackgroundColor="@color/white"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/request_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/approved_date"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/request_10"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/approved_message"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:layout_marginStart="217dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:id="@+id/table_row"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/ash_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+            <TextView
+                android:id="@+id/request_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/approved_action"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/table_row"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginStart="175dp"
+                android:id="@+id/request_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_time"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                app:layout_constraintTop_toBottomOf="@+id/table_row"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="480dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="7dp"
+        app:cardBackgroundColor="@color/white"
+        >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/request_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approved_date"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/request_14"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rejected_message"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:layout_marginStart="217dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:id="@+id/table_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ash_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/request_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rejected_action"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/table_row_2"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="175dp"
+            android:id="@+id/request_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/card_time"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:layout_constraintTop_toBottomOf="@+id/table_row_2"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>
