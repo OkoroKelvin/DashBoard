@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:clipToPadding="false"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -37,6 +38,7 @@
         android:src="@drawable/ic_baseline_notifications_24" />
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="105dp"
         android:layout_width="150dp"
         android:layout_height="90dp"
@@ -89,6 +91,7 @@
 
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="105dp"
         android:layout_marginStart="160dp"
         android:layout_width="150dp"
@@ -142,6 +145,7 @@
 
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="215dp"
         android:layout_width="150dp"
         android:layout_height="90dp"
@@ -194,6 +198,7 @@
 
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="215dp"
         android:layout_width="150dp"
         android:layout_height="90dp"
@@ -257,6 +262,7 @@
 
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="370dp"
         android:layout_width="match_parent"
         android:layout_height="90dp"
@@ -308,6 +314,7 @@
 
 
             <TextView
+                android:layout_marginTop="8dp"
                 android:id="@+id/request_11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -317,6 +324,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/table_row"/>
 
             <TextView
+                android:layout_marginTop="8dp"
                 android:textStyle="bold"
                 android:layout_marginStart="175dp"
                 android:id="@+id/request_12"
@@ -331,6 +339,7 @@
 
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="1dp"
         android:layout_marginTop="480dp"
         android:layout_width="match_parent"
         android:layout_height="90dp"
@@ -347,6 +356,7 @@
         android:paddingTop="10dp">
 
         <TextView
+
             android:id="@+id/request_13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -383,6 +393,7 @@
 
         <TextView
             android:id="@+id/request_15"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/rejected_action"
@@ -391,6 +402,7 @@
             app:layout_constraintTop_toBottomOf="@+id/table_row_2"/>
 
         <TextView
+            android:layout_marginTop="8dp"
             android:textStyle="bold"
             android:layout_marginStart="175dp"
             android:id="@+id/request_a"
@@ -401,9 +413,24 @@
             android:textSize="13sp"
             app:layout_constraintTop_toBottomOf="@+id/table_row_2"/>
 
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:elevation="2dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="-14dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src = "@drawable/ic_baseline_circle_24"
+        />
+
+    <ImageView
+        android:elevation="2dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="274dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_assignment_24" />
 </RelativeLayout>
